@@ -1,0 +1,302 @@
+*{
+    text-decoration: none;
+    padding:0;
+    margin:0;
+    
+    
+
+}
+.navbar{
+    padding: 65px;
+    font-family: calibri;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAP8AAACUCAMAAABr5Q9hAAAAA1BMVEXtHSTFL/bkAAAAO0lEQVR4nO3BAQ0AAADCoPdPbQ8HFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPwalAAAARCNrggAAAAASUVORK5CYII=');
+    box-shadow: 0 5px 20px black;
+}
+body ul li{
+    font-size: 25px;
+    /* color:teal; */
+}
+.navdiv{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.logo h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color:white;
+    /* padding-left: 200px; */
+    font-family: PT Sans Narrow;
+    /* filter: drop-shadow(0 2px 10px white); */
+    /* background-color: #ab0c0c; */
+}
+li{
+    list-style: none;
+    display:inline-block;
+}
+li{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 70px;
+}
+.bala{
+    background-image: url('https://images.thedirect.com/media/article_full/avengers-status.jpg');
+    background-position: center;
+    background-size: cover;
+    width:100%;
+    height:100vh;
+}
+.hulk{
+    position:relative;
+    display:block;
+    width:100%;
+    height:140px;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    overflow:hidden;
+}
+.bruice{
+    position:relative;
+    display:inline-block;
+    /* margin:auto auto; */
+    white-space: nowrap;
+    overflow: hidden;
+    
+    min-width: 100%;
+    /* height:100%; */
+}
+.bruice span{
+    display:inline-block;
+    padding-left: -100%;
+    font-family: 'Protest Guerrilla';
+    justify-content: center;
+    -webkit-text-stroke: 5px red;
+    white-space:nowrap;
+    min-width:100%;
+    /* height: 100%; */
+    line-height: 160px;
+    font-size: 170px;
+    animation: slide 15s ease-in-out infinite;
+    color:rgba(255, 255, 255, 0.9);
+}
+@keyframes slide{
+    0%{
+        transform:translateX(45%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+body ul li a:hover{
+    position:relative;
+    bottom:5px;
+}
+.heroes{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px 0 0 0;
+    width: 100%;
+}
+.cards{
+    margin: 0px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: red;
+}
+.card1{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: red;
+}
+div a{
+    color:white;
+    background:transperant;
+    border:1px solid white;
+    border-radius: 5px;
+    padding: 3px 10px;
+}
+.card2{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: red;
+}
+.card3{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: red;
+}
+.card1{
+    width: 100%;
+    display: flex;
+}
+.card2{
+    width: 100%;
+    display: flex;
+}
+.card3{
+    width: 100%;
+    display: flex;
+}
+.heroes p{
+    padding: 10px 0;
+    font-size: 1.5rem;
+}
+.heroes a{
+    border:1px solid white;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 2px 10px;
+}
+.c1, .c2, .c3, .c4, .c5, .c6, .c7, .c8, .c9, .c10, .c11, .c12{
+    width: 30%;
+    
+}
+
+.cards img{
+    margin: 20px 0;
+    width: 186px;
+    height: 248px;
+    position: relative;
+    left: 30%;
+    box-shadow: 0 2px 10px black;
+}
+.card1 img{
+    margin: 20px 0;
+    width: 186px;
+    height: 248px;
+    position: relative;
+    left: 30%;
+    box-shadow: 0 2px 10px black;
+}
+.card2 img{
+    margin: 20px 0;
+    width: 186px;
+    height: 248px;
+    position: relative;
+    left: 30%;
+    box-shadow: 0 2px 10px black;
+}
+.card3 img{
+    margin: 20px 0;
+    width: 186px;
+    height: 248px;
+    position: relative;
+    left: 30%;
+    box-shadow: 0 2px 10px black;
+}
+.profile {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+    margin: 40px;
+}
+.site{
+    padding: 20px 5px;
+    /* border: 1px solid black; */
+}
+
+.sg{
+    color: red;
+    text-align: center;
+    padding: 20PX;
+}
+.sg h3{
+    color: red;
+}
+footer{
+    padding: 30px;
+    color: white;
+    background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAP8AAACUCAMAAABr5Q9hAAAAA1BMVEXtHSTFL/bkAAAAO0lEQVR4nO3BAQ0AAADCoPdPbQ8HFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPwalAAAARCNrggAAAAASUVORK5CYII=');
+    font-family: calibri;
+    padding-right: 15px;
+    padding-left: 15px;
+    /* background-color:black; */
+    box-shadow: 0 5px 20px black;
+    color:brown;
+}
+.vivo{
+    /* background-color:white; */
+    display:flex;
+    justify-content: space-around;
+
+}
+.vivo a{
+    /* background-color: transparent; */
+    border: none;
+}
+div h3{
+    color:black;    
+}
+footer a{
+    position:relative;
+    bottom:5px;
+}
+footer a:hover{
+    position: relative;
+    bottom: 7px;
+}
+
+@media only screen and (max-width:1080px){
+    .navbar{
+        flex-direction: column;
+        height:auto;
+        width:auto;
+        display:flex;
+    }
+
+    .logo{
+        margin: 20px 0;
+    }
+    .navdiv{
+        flex-direction: column;
+    }
+    .logo h1{
+        font-size: 1.8rem;
+    }
+    .navdiv ul{
+        text-align: center;
+        width: 100%;
+    }
+    .navdiv ul li{
+        margin: 0 0 0 10px ;
+        font-size: 1rem;
+    }
+    .navdiv ul li a{
+
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .cards, .card1, .card2, .card3{
+        flex-direction: column;
+    }
+    footer .vivo{
+        flex-direction: column;
+    }
+    .heroes{
+        text-align: center;
+    }
+    .heroes p{
+        position: relative;
+        left: 60px;
+        font-size: 0.6rem;
+    }
+    .heroes a{
+        position: relative;
+        left: 60px;
+        font-size: 0.6rem;
+    }
+    .heroes .c1, .c2, .c3, .c4, .c5, .c6, .c7, .c8, .c9, .c10, .c11, .c12{
+        width: 70%;
+    }
+    .heroes .c2{
+
+    }
+    
+}
